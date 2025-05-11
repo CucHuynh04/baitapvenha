@@ -1,0 +1,50 @@
+﻿@model thanhcuc_0331.Models.Book
+
+@{
+    ViewBag.Title = "Chỉnh sửa sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>✏️ Chỉnh sửa sách</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.Id) <!-- Ẩn Id để gửi về server -->
+
+    <div class="mb-3">
+        @Html.LabelFor(model => model.Title, new { @class = "form-label" })
+        @Html.TextBoxFor(model => model.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(model => model.Author, new { @class = "form-label" })
+        @Html.TextBoxFor(model => model.Author, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(model => model.PublicYear, new { @class = "form-label" })
+        @Html.TextBoxFor(model => model.PublicYear, new { @class = "form-control", type = "number" })
+        @Html.ValidationMessageFor(model => model.PublicYear, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(model => model.Price, new { @class = "form-label" })
+        @Html.TextBoxFor(model => model.Price, new { @class = "form-control", type = "number" })
+        @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(model => model.Cover, new { @class = "form-label" })
+        @Html.TextBoxFor(model => model.Cover, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Cover, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="d-flex justify-content-start mt-4">
+        <input type="submit" value="💾 Lưu thay đổi" class="btn btn-primary me-2" />
+        @Html.ActionLink("⬅️ Quay lại danh sách", "ListBooks", "Books", null, new { @class = "btn btn-secondary" })
+    </div>
+}

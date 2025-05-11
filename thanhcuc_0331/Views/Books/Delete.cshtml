@@ -1,0 +1,37 @@
+﻿@model thanhcuc_0331.Models.Book
+
+
+@{
+    ViewBag.Title = "Xóa sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-danger text-center">Bạn có chắc chắn muốn xóa cuốn sách này?</h2>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title text-center mb-4">Thông tin sách</h5>
+                <div class="mb-3">
+                    <strong>Tiêu đề sách:</strong> @Model.Title
+                </div>
+                <div class="mb-3">
+                    <strong>Tác giả:</strong> @Model.Author
+                </div>
+                <div class="mb-3">
+                    <strong>Giá sách:</strong> @Model.Price.ToString("N0") ₫
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    @using (Html.BeginForm("DeleteConfirmed", "Books", new { id = Model.Id }, FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <input type="submit" value="Có, xóa" class="btn btn-danger mx-2" />
+                        @Html.ActionLink("Hủy", "ListBooks", null, new { @class = "btn btn-secondary mx-2" })
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

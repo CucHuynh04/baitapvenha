@@ -1,0 +1,23 @@
+﻿@model thanhcuc_0331.Models.Book
+
+@{
+    ViewBag.Title = "Chi tiết sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Title</h2>
+
+<div class="col-sm-12 col-md-12">
+    <div class="thumbnail">
+        <img src="@Url.Content("~/" + Model.Cover)" alt="thumbnail" class="img-responsive" />
+    </div>
+    <div class="caption">
+        <p><strong>@Html.DisplayNameFor(m => m.Author):</strong> @Model.Author</p>
+        <p><strong>@Html.DisplayNameFor(m => m.PublicYear):</strong> @Model.PublicYear</p>
+        <p><strong>@Html.DisplayNameFor(m => m.Price):</strong> @Model.Price</p>
+        <p>
+            <a href="#" class="btn btn-primary">Mua</a>
+            @Html.ActionLink("⬅️ Quay lại danh sách", "ListBooks", "Books", null, new { @class = "btn btn-info" })
+        </p>
+    </div>
+</div>

@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|c:\\users\\admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|c:\\users\\admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|c:\\users\\admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\views\\books\\listbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\views\\books\\listbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|c:\\users\\admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\views\\books\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\views\\books\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|c:\\users\\admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8C9E69-7CAF-4E85-9CCE-1A14CD492234}|thanhcuc_0331\\thanhcuc_0331.csproj|solutionrelative:thanhcuc_0331\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "thanhcuc_0331\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:42:03.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "thanhcuc_0331\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwC8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:39:50.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "thanhcuc_0331\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:37:47.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Detail.cshtml",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\Views\\Books\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\Detail.cshtml",
+              "RelativeToolTip": "thanhcuc_0331\\Views\\Books\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:34:47.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\ListBooks.cshtml",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\Views\\Books\\ListBooks.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Views\\Books\\ListBooks.cshtml",
+              "RelativeToolTip": "thanhcuc_0331\\Views\\Books\\ListBooks.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T17:01:58.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "thanhcuc_0331\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:06:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "thanhcuc_0331\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:58:33.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "thanhcuc_0331\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\thanhcuc_0331\\thanhcuc_0331\\Models\\Book.cs",
+              "RelativeToolTip": "thanhcuc_0331\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:49:12.169Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

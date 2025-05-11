@@ -1,0 +1,56 @@
+﻿@model thanhcuc_0331.Models.Book
+
+@{
+    ViewBag.Title = "Thêm Sách Mới";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4 text-primary">📚 Thêm Sách Mới</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="card shadow p-4 mx-auto" style="max-width: 650px;">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger mb-3" })
+
+            <div class="form-group mb-3">
+                @Html.LabelFor(model => model.Title, "Tên sách", htmlAttributes: new { @class = "form-label fw-bold" })
+                @Html.TextBoxFor(model => model.Title, new { @class = "form-control", placeholder = "Nhập tên sách" })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                @Html.LabelFor(model => model.Author, "Tác giả", htmlAttributes: new { @class = "form-label fw-bold" })
+                @Html.TextBoxFor(model => model.Author, new { @class = "form-control", placeholder = "Nhập tên tác giả" })
+                @Html.ValidationMessageFor(model => model.Author, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                @Html.LabelFor(model => model.PublicYear, "Năm xuất bản", htmlAttributes: new { @class = "form-label fw-bold" })
+                @Html.TextBoxFor(model => model.PublicYear, new { @class = "form-control", type = "number", min = "1900", max = "2100", placeholder = "VD: 2020" })
+                @Html.ValidationMessageFor(model => model.PublicYear, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                @Html.LabelFor(model => model.Price, "Giá sách", htmlAttributes: new { @class = "form-label fw-bold" })
+                @Html.TextBoxFor(model => model.Price, new { @class = "form-control", type = "number", step = "0.01", placeholder = "VD: 50000" })
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-4">
+                @Html.LabelFor(model => model.Cover, "Đường dẫn ảnh bìa", htmlAttributes: new { @class = "form-label fw-bold" })
+                @Html.TextBoxFor(model => model.Cover, new { @class = "form-control", placeholder = "VD: Content/images/book1.jpg" })
+                @Html.ValidationMessageFor(model => model.Cover, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success">
+                    ✅ Thêm sách
+                </button>
+                @Html.ActionLink("⬅️ Quay lại danh sách", "ListBooks", null, new { @class = "btn btn-outline-secondary" })
+            </div>
+        </div>
+    }
+</div>

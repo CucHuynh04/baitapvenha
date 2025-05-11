@@ -1,0 +1,68 @@
+﻿@model IEnumerable<thanhcuc_0331.Models.Book>
+@{
+    ViewBag.Title = "Quản lý sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center mb-4 text-dark">📘 Quản Lý Sách</h2>
+
+<!-- Thanh tìm kiếm và nút thêm -->
+<div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+    <div class="input-group w-50">
+        @using (Html.BeginForm("ListBooks", "Books", FormMethod.Get))
+        {
+            @Html.TextBox("searchString", ViewBag.CurrentFilter as string, new { @class = "form-control", placeholder = "🔍 Tìm kiếm theo tên, tác giả..." })
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">Tìm</button>
+            </div>
+        }
+    </div>
+
+    <a href="@Url.Action("Create", "Books")" class="btn btn-success">
+        ➕ Thêm sách mới
+    </a>
+</div>
+
+<!-- Sắp xếp -->
+<div class="mb-4">
+    <span class="font-weight-bold mr-2">Sắp xếp:</span>
+    <a href="@Url.Action("ListBooks", new { sortOrder = "name_asc", searchString = ViewBag.CurrentFilter })" class="btn btn-sm btn-outline-dark">Tên A-Z</a>
+    <a href="@Url.Action("ListBooks", new { sortOrder = "name_desc", searchString = ViewBag.CurrentFilter })" class="btn btn-sm btn-outline-dark">Tên Z-A</a>
+    <a href="@Url.Action("ListBooks", new { sortOrder = "price_asc", searchString = ViewBag.CurrentFilter })" class="btn btn-sm btn-outline-dark">Giá tăng</a>
+    <a href="@Url.Action("ListBooks", new { sortOrder = "price_desc", searchString = ViewBag.CurrentFilter })" class="btn btn-sm btn-outline-dark">Giá giảm</a>
+</div>
+
+<!-- Danh sách sách -->
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-4 col-md-6 mb-4 d-flex">
+            <div class="card w-100 border-0 shadow-sm">
+                <div class="row no-gutters">
+                    <div class="col-4">
+                        <img src="@item.Cover" class="img-fluid p-2" style="height: 160px; object-fit: contain; background-color: #f8f9fa;" alt="Bìa sách">
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body py-2 px-3">
+                            <h5 class="card-title mb-2 text-primary text-truncate">@item.Title</h5>
+                            <p class="mb-1"><strong>Tác giả:</strong> @item.Author</p>
+                            <p class="mb-1"><strong>Năm:</strong> @item.PublicYear</p>
+                            <p class="mb-1"><strong>Giá:</strong> @item.Price.ToString("N0") ₫</p>
+
+                            <div class="mt-3 d-flex justify-content-between">
+                                <a href="@Url.Action("Detail", "Books", new { id = item.Id })" class="btn btn-sm btn-outline-info">Chi tiết</a>
+                                <a href="@Url.Action("Edit", "Books", new { id = item.Id })" class="btn btn-sm btn-outline-warning">Sửa</a>
+                                @using (Html.BeginForm("Delete", "Books", FormMethod.Post, new { onsubmit = "return confirm('Bạn có chắc muốn xóa sách này không?');" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-sm btn-outline-danger">Xóa</button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
